@@ -31,3 +31,4 @@ end
 
 def over?(board)
   board.draw?(board) || board.won?(board)
+end

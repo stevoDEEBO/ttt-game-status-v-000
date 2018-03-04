@@ -26,8 +26,8 @@ def full?(board)
 end
 
 def draw?(board)
-  board.full? && !board.won?
+  board.full?(board) && !board.won?(board)
 end
 
 def over?(board)
-  
+  board.draw?(board) || board.won?(board)

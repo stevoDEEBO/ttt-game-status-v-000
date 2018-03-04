@@ -33,7 +33,7 @@ def over?(board)
   draw?(board) || won?(board)
 end
 
-def winner?(board)
+def winner(board)
   if winXO = won?(board)
     board[winXO.first]
   end

@@ -36,4 +36,5 @@ end
 def winner?(board)
   if winXO = won?(board)
     board[winXO.first]
+  end
 end
